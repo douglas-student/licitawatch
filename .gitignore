@@ -1,0 +1,15 @@
+# Dependências do Node.js
+/node_modules
+
+# Arquivos do ambiente do editor VSCode
+.vscode/
+
+# Logs do npm
+npm-debug.log*
+
+# Arquivos de ambiente e chaves
+.env
+
+# Sistema operacional
+.DS_Store       # macOS
+Thumbs.db       # Windows
