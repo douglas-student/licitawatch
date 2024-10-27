@@ -34,11 +34,19 @@
 
     <main>
       <div id="container" class="container">
+        <div class="row modal-theme">
+          <div class="col-lg-1 col-xs-12">
+            <h6 class="input-theme">TARGET:</h6>
+          </div>
+          <div class="col-lg-11 col-xs-12">
+            <input class="form-control input-theme" id="urlTarget" value="https://niteroi.rj.gov.br/licitacoes/" disabled />
+          </div>
+        </div>
         <div class="row">
-          <div id="secretaria" class="col-2">
+          <div id="secretaria" class="col-lg-2 col-md-4 modal-theme">
             <div>
               <h6>Motor de Análise:</h6>
-              <select id="engine" class="btn-theme">
+              <select id="engine" class="btn-theme btn-realce">
                 <option value="parametrica">Paramétrica</option>
                 <option value="ia-aws">IA AWS</option>
                 <option value="ia-chatgpt">IAChatGpt</option>
@@ -46,7 +54,7 @@
             </div>
             <div>
               <h6>Licitação:</h6>
-              <select id="licitacao" class="btn-theme">
+              <select id="licitacao" class="btn-theme btn-realce">
                 <option value="em-andamento">Em andamento</option>
                 <option value="2021">2021</option>
                 <option value="2022">2022</option>
@@ -54,11 +62,11 @@
               </select>
             </div>
             <div>
-              <button onclick="startProcess(this)">Carregar Licitações</button>
+              <button class="btn-theme btn-realce" onclick="startProcess(this)">Carregar Licitações</button>
               <ul id="secretaria-list"></ul>
             </div>
           </div>
-          <div id="dados-licitacao" class="col-10">
+          <div id="dados-licitacao" class="col-lg-10 col-md-8 modal-theme">
             <h2 id="secretaria-title">
               Selecione uma secretaria ou clique em "Carregar Licitações"
             </h2>
