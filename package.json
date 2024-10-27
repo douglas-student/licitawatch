@@ -1,0 +1,20 @@
+{
+  "name": "licitawatch",
+  "version": "1.0.0",
+  "description": "**LicitaWatch** is an automated tool for scraping and analyzing public bidding documents, designed to monitor, extract, and process data from ongoing, completed, and suspended bids. Powered by **AWS Step Functions**, it orchestrates the entire process, from link collection to data extraction from various document formats.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
