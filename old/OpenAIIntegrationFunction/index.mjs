@@ -13,6 +13,8 @@ export const handler = async (event) => {
         temperature: 0.7,
     });
 
+    const { OPENAI_API_KEY } = require('./config');
+    
     const options = {
         hostname: 'api.openai.com',
         port: 443,
@@ -20,7 +22,7 @@ export const handler = async (event) => {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer chave-do-openai`,
+            'Authorization': `Bearer ${OPENAI_API_KEY}`,
         },
     };
 

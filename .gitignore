@@ -16,3 +16,6 @@ Thumbs.db       # Windows
 
 # Ignore pacotes compactados
 *.zip
+
+# Chaves sensíveis de APIs
+config.js
