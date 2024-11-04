@@ -13,3 +13,6 @@ npm-debug.log*
 # Sistema operacional
 .DS_Store       # macOS
 Thumbs.db       # Windows
+
+# Ignore pacotes compactados
+*.zip
