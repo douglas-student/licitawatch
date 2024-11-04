@@ -1,0 +1,12 @@
+/licitawatch
+├── /controllers         # Lógica do controle (por exemplo, funções para lidar com requisições)
+├── /models              # Modelos de dados, pode incluir as funções Lambda simuladas localmente
+├── /views               # Arquivos de visualização, como o index.html
+├── /routes              # Definições de rotas da aplicação
+├── /public              # Arquivos estáticos (CSS, JS do frontend)
+├── /data                # Arquivos JSON para simular respostas locais
+├── /lambda              # Funções Lambda que são executadas na AWS, mas podem ser simuladas
+├── /node_modules        # Dependências do projeto, incluindo o Bootstrap e outras bibliotecas
+├── server.js            # Servidor Express, ponto de entrada
+├── package.json         # Gerenciamento de dependências do Node.js
+└── package-lock.json    # Gerenciamento de versões exato das dependências 

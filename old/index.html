@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Licitação Data Scraper</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="licitawatch-lambda/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="loader" style="display: none">Carregando...</div>
+
+    <header>
+      <h1>LicitaWatch - Data Scraper and Analyser</h1>
+
+      <div class="language-links">
+        <a href="index.html" title="English">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+            alt="English"
+          />
+        </a>
+        <a href="index-pt.html" title="Portuguese">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+            alt="Portuguese"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div id="container" class="container">
+        <div class="row">
+          <div id="secretaria" class="col-2">
+            <div>
+              <h6>Motor de Análise:</h6>
+              <select id="engine" class="btn-theme">
+                <option value="parametrica">Paramétrica</option>
+                <option value="ia-aws">IA AWS</option>
+                <option value="ia-chatgpt">IAChatGpt</option>
+              </select>
+            </div>
+            <div>
+              <h6>Licitação:</h6>
+              <select id="licitacao" class="btn-theme">
+                <option value="em-andamento">Em andamento</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+              </select>
+            </div>
+            <div>
+              <button onclick="startProcess(this)">Carregar Licitações</button>
+              <ul id="secretaria-list"></ul>
+            </div>
+          </div>
+          <div id="dados-licitacao" class="col-10">
+            <h2 id="secretaria-title">
+              Selecione uma secretaria ou clique em "Carregar Licitações"
+            </h2>
+            <div id="content"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="licitawatch-lambda/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="licitawatch-lambda/app.js"></script>
+  </body>
+</html>
