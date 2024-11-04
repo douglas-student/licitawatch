@@ -1,0 +1,7 @@
+[
+    { "name": "Alice", "role": "Scrum Master" },
+    { "name": "Bob", "role": "Product Owner" },
+    { "name": "Charlie", "role": "Developer" },
+    { "name": "Daisy", "role": "Tester" },
+    { "name": "Evan", "role": "UX Designer" }
+]

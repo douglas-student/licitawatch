@@ -7,14 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <div id="loader" style="display: none">Carregando...</div>
 
     <header>
-      <h1>LicitaWatch - Data Scraper and Analyser</h1>
+      <h1>home LicitaWatch - Data Scraper and Analyser</h1>
 
       <div class="language-links">
         <a href="index.html" title="English">
@@ -39,7 +39,12 @@
             <h6 class="input-theme">TARGET:</h6>
           </div>
           <div class="col-lg-11 col-xs-12">
-            <input class="form-control input-theme" id="urlTarget" value="https://niteroi.rj.gov.br/licitacoes/" disabled />
+            <input
+              class="form-control input-theme"
+              id="urlTarget"
+              value="https://niteroi.rj.gov.br/licitacoes/"
+              disabled
+            />
           </div>
         </div>
         <div class="row">
@@ -62,7 +67,9 @@
               </select>
             </div>
             <div>
-              <button class="btn-theme btn-realce" onclick="startProcess(this)">Carregar Licitações</button>
+              <button class="btn-theme btn-realce" onclick="startProcess(this)">
+                Carregar Licitações
+              </button>
               <ul id="secretaria-list"></ul>
             </div>
           </div>

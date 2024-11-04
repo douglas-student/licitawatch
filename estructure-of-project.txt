@@ -1,0 +1,27 @@
+licitawatch/
+├── controllers
+│   ├── extractLinksController.js
+│   ├── mainController.js
+├── lambda/
+│   ├── extractLinksFunction.js
+├── models
+│   ├── (vazia)
+├── public/
+│   ├── css
+│   │   ├── style.css
+│   ├── data
+│   │   ├── links-secretarias.json
+│   ├── js
+│   │   ├── app.js
+├── routes/
+│   ├── index.js
+├── views/
+│   ├── index.html
+├── estructure-of-project.txt
+├── leiame.md
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── readme.md
+├── server.js
+├── .gitignore
