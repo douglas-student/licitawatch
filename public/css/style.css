@@ -58,6 +58,10 @@
     padding: 0px 10px;
   }
 
+  #content .row{
+    margin: 40px 0;
+  }
+
   .input-theme {
     font-weight: bold;
     line-height: 40px;

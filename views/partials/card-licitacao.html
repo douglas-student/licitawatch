@@ -1,16 +1,19 @@
-<div class="row">
-    <div class="col-md-4">
+<div class="row d-flex justify-content-center">
+    <div class="col-md-4 col-lg-6">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title text-primary">{{tipo}} {{numero}}</h5>
-          <p class="card-text">Data: {{data}}</p>
-          <p class="card-text">Hora: {{hora}}</p>
-          <p class="card-text">Status: {{status}}</p>
-          <p class="card-text">Objeto: {{objeto}}</p>
-          <p class="card-text">Reuniões: {{reunioes}}</p>
-          <p class="card-text">Arquivos: {{arquivos}}</p>
-          <a href="#" class="btn btn-primary">Análisar arquivos</a>
+          <p class="card-text"><b>Data:</b> {{data}}</p>
+          <p class="card-text"><b>Hora:</b> {{hora}}</p>
+          <p class="card-text"><b>Status:</b> {{status}}</p>
+          <p class="card-text"><b>Objeto:</b> {{objeto}}</p>
+          <p class="card-text"><b>Local:</b> {{reunioes}}</p>
+          <p class="card-text"><b>Arquivos:</b> {{arquivos}}</p>
+          <p class="card-text"><b>Nível de transparência:</b> {{nivelTransparencia}}</p>
+          <a href="#" class="btn btn-primary" dg-nivel-transparencia="{{nivelTransparencia}}" dg-target="{{id}}" dg-json="{{json}}" onclick="analiseProfunda.call(this)">Análise Profunda</a>
+          <button type="button" class="btn btn-md btn-danger btn-popover" data-bs-toggle="popover" title="Recurso indisponível" data-bs-content="Este recurso estará disponível em breve">?</button>
         </div>
       </div>
     </div>
+    <div id="{{id}}" class=""></div>
   </div>
