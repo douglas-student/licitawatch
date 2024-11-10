@@ -1,0 +1,178 @@
+[
+  {
+    "licitacao": {
+      "numero": "34/2022",
+      "tipo": "Concorrência",
+      "status": "Concluída",
+      "data": "15/09/2022",
+      "hora": "09:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Contratação de empresa para construção de centro de saúde no bairro Icaraí, Niterói.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Concorrência 34/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Concorrencia-34-2022.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Resultado - Concorrência 34/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Resultado-Concorrencia-34-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "21/2022",
+      "tipo": "Tomada de Preços",
+      "status": "Em Andamento",
+      "data": "10/12/2022",
+      "hora": "14:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de equipamentos hospitalares para o novo hospital municipal.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Tomada de Preços 21/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Tomada-de-Precos-21-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "78/2022",
+      "tipo": "Convite",
+      "status": "Concluída",
+      "data": "25/10/2022",
+      "hora": "09:30",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Prestação de serviços de vigilância e segurança para o hospital municipal.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Convite 78/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Convite-78-2022.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Resultado - Convite 78/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Resultado-Convite-78-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "12/2022",
+      "tipo": "Pregão Eletrônico",
+      "status": "Suspenso",
+      "data": "05/08/2022",
+      "hora": "10:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de materiais médicos para atendimento emergencial da rede de saúde municipal.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Pregão Eletrônico 12/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Pregao-12-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "99/2022",
+      "tipo": "Pregão Eletrônico",
+      "status": "Ativo",
+      "data": "11/11/2022",
+      "hora": "08:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Futura e eventual aquisição de equipamentos de informática para a rede de ensino municipal.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Pregão Eletrônico 99/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Pregao-99-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "55/2022",
+      "tipo": "Tomada de Preços",
+      "status": "Concluída",
+      "data": "21/03/2022",
+      "hora": "13:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Contratação de empresa para execução de obras de infraestrutura em ruas do bairro de Santa Rosa.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Tomada de Preços 55/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Tomada-de-Precos-55-2022.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Resultado - Tomada de Preços 55/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Resultado-Tomada-de-Precos-55-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "88/2022",
+      "tipo": "Concorrência",
+      "status": "Ativo",
+      "data": "12/09/2022",
+      "hora": "11:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Contratação de empresa para fornecimento de alimentos para as unidades de saúde.",
+      "arquivos": [
+        {
+          "titulo": "Edital - Concorrência 88/2022",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2022/Edital-Concorrencia-88-2022.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+{
+    "uasg": "920014",
+    "numeroProcesso": "8720054321/2022",
+    "modalidade": "Pregão Eletrônico",
+    "tipoJulgamento": "Menor Preço por Lote",
+    "dataRealizacao": "2022-03-22",
+    "horaRealizacao": "11:00",
+    "enderecoPortal": "https://www.gov.br/compras/pt-br",
+    "contato": {
+      "email": "licitacao@educacao.niteroi.rj.gov.br",
+      "endereco": "Rua Almirante Barroso, 1000 – Centro, Niterói, RJ"
+    },
+    "objeto": {
+      "descricao": "Aquisição de livros didáticos e materiais pedagógicos para escolas da rede pública municipal de Niterói.",
+      "duracaoAta": "12 meses"
+    },
+    "participacao": {
+      "exclusivoME_EPP": [2, 4, 7, 9, 11, 13, 15],
+      "condicoes": [
+        "Cumprimento dos requisitos do art. 3º da Lei Complementar 123/2006",
+        "Cadastro no SICAF"
+      ]
+    },
+    "criteriosHabilitacao": {
+      "juridica": [
+        "Registro em Junta Comercial",
+        "Certificado de Condição de Microempreendedor Individual (se aplicável)"
+      ],
+      "regularidadeFiscal": [
+        "CNPJ",
+        "Certidão Negativa de Débitos Trabalhistas (CNDT)"
+      ],
+      "qualificacaoTecnica": [
+        "Comprovação de fornecimento de material pedagógico similar"
+      ]
+    },
+    "detalhes": {
+      "licitacaoId": "34/2022",
+      "dataPublicacao": "2022-02-18",
+      "valorEstimado": 1523000.0,
+      "programaOrcamentario": "21.09.10.305.0154.5000",
+      "naturezaDespesa": "33.90.50"
+    }
+  }

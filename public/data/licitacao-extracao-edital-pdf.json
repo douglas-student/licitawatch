@@ -1,0 +1,48 @@
+{
+    "uasg": "925016",
+    "numeroProcesso": "9900033298/2023",
+    "modalidade": "Pregão Eletrônico",
+    "tipoJulgamento": "Menor Preço por Item",
+    "dataRealizacao": "2024-02-01",
+    "horaRealizacao": "10:00",
+    "enderecoPortal": "https://www.gov.br/compras/pt-br",
+    "contato": {
+      "email": "licitacao@saude.niteroi.rj.gov.br",
+      "endereco": "Rua Visconde de Sepetiba, 987 – 8º andar, Niterói, RJ"
+    },
+    "objeto": {
+      "descricao": "Aquisição eventual de soluções injetáveis de grandes volumes e eletrólitos para atendimento aos usuários da rede de saúde da Fundação Municipal de Saúde de Niterói",
+      "duracaoAta": "12 meses"
+    },
+    "participacao": {
+      "exclusivoME_EPP": [
+        1, 2, 4, 5, 6, 7, 10, 13, 14, 15, 17, 18, 19, 21, 22, 23
+      ],
+      "condicoes": [
+        "Cumprimento dos requisitos do art. 3º da Lei Complementar 123/2006",
+        "Cadastro no SICAF"
+      ]
+    },
+    "criteriosHabilitacao": {
+      "juridica": [
+        "Registro em Junta Comercial",
+        "Certificado de Condição de Microempreendedor Individual (se aplicável)"
+      ],
+      "regularidadeFiscal": [
+        "CNPJ",
+        "Certidão Negativa de Débitos Trabalhistas (CNDT)"
+      ],
+      "qualificacaoTecnica": [
+        "Atestado de capacidade técnica",
+        "Autorização de Funcionamento pela ANVISA"
+      ]
+    },
+    "detalhes": {
+      "licitacaoId": "64/2023",
+      "dataPublicacao": "2023-12-28",
+      "valorEstimado": 4418327.70,
+      "programaOrcamentario": "25.43.10.302.0133.6170",
+      "naturezaDespesa": "33.90.30"
+    }
+  }
+  

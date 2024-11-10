@@ -1,0 +1,45 @@
+{
+  "uasg": "920001",
+  "numeroProcesso": "8900023345/2021",
+  "modalidade": "Tomada de Preços",
+  "tipoJulgamento": "Maior Desconto",
+  "dataRealizacao": "2021-04-15",
+  "horaRealizacao": "14:00",
+  "enderecoPortal": "https://www.gov.br/compras/pt-br",
+  "contato": {
+    "email": "licitacao@infraestrutura.niteroi.rj.gov.br",
+    "endereco": "Rua XV de Novembro, 300 – Centro, Niterói, RJ"
+  },
+  "objeto": {
+    "descricao": "Contratação de empresa especializada para a execução de obras de drenagem pluvial no bairro de Icaraí.",
+    "duracaoAta": "24 meses"
+  },
+  "participacao": {
+    "exclusivoME_EPP": [1, 3, 5, 7, 9, 11, 12, 14, 16],
+    "condicoes": [
+      "Cumprimento dos requisitos da Lei Complementar 123/2006",
+      "Cadastro no SICAF"
+    ]
+  },
+  "criteriosHabilitacao": {
+    "juridica": [
+      "Registro em Junta Comercial",
+      "Certificado de Condição de Microempreendedor Individual (se aplicável)"
+    ],
+    "regularidadeFiscal": [
+      "CNPJ",
+      "Certidão Negativa de Débitos Trabalhistas (CNDT)"
+    ],
+    "qualificacaoTecnica": [
+      "Comprovação de experiência em obras de drenagem",
+      "Certificado de qualificação técnico-profissional"
+    ]
+  },
+  "detalhes": {
+    "licitacaoId": "23/2021",
+    "dataPublicacao": "2021-03-20",
+    "valorEstimado": 5124300.5,
+    "programaOrcamentario": "15.34.10.304.0217.2310",
+    "naturezaDespesa": "33.90.10"
+  }
+}

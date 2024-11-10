@@ -1,0 +1,168 @@
+[
+  {
+    "licitacao": {
+      "numero": "12/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Em Andamento",
+      "data": "15/06/2021",
+      "hora": "09:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de equipamentos médicos para atendimento às unidades de saúde do município",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/12-PE-2021-Equipamentos-Medicos.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "titulo": "Impugnação A",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/IMPUGNACAO-PE-12-21-A.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "15/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Concluído",
+      "data": "01/07/2021",
+      "hora": "10:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Contratação de serviços de limpeza e conservação para unidades hospitalares municipais",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/15-PE-2021-Limpeza-Hospitais.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "22/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Em Andamento",
+      "data": "10/08/2021",
+      "hora": "14:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de materiais de consumo para unidades de saúde do município",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/22-PE-2021-Materiais-Consumo.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "33/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Concluído",
+      "data": "20/09/2021",
+      "hora": "11:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Prestação de serviços de transporte de pacientes para unidades de saúde",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/33-PE-2021-Transporte-Usuarios.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "44/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Em Andamento",
+      "data": "05/10/2021",
+      "hora": "15:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de medicamentos essenciais para o tratamento de doenças crônicas",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/44-PE-2021-Medicamentos-Doencas-Cronicas.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "51/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Suspenso",
+      "data": "25/11/2021",
+      "hora": "10:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Prestação de serviços de vigilância sanitária e epidemiológica para o município",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/51-PE-2021-Vigilancia-Sanitaria.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  },
+  {
+    "licitacao": {
+      "numero": "58/2021",
+      "tipo": "Pregão Eletrônico",
+      "status": "Concluído",
+      "data": "14/12/2021",
+      "hora": "08:00",
+      "reunioes": [
+        {
+          "plataforma": "www.gov.br/compras",
+          "link": "http://www.gov.br/compras"
+        }
+      ],
+      "objeto": "Aquisição de alimentos para hospitais municipais e unidades de saúde",
+      "arquivos": [
+        {
+          "titulo": "Edital",
+          "link": "https://www.niteroi.rj.gov.br/wp-content/uploads/licitacao/fms/2021/58-PE-2021-Alimentos-Hospitais.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  }
+]

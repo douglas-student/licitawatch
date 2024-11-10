@@ -1,0 +1,45 @@
+
+  {
+    "uasg": "930031",
+    "numeroProcesso": "3050098765/2023",
+    "modalidade": "Pregão Eletrônico",
+    "tipoJulgamento": "Menor Preço por Lote",
+    "dataRealizacao": "2023-04-15",
+    "horaRealizacao": "10:30",
+    "enderecoPortal": "https://www.gov.br/compras/pt-br",
+    "contato": {
+      "email": "licitacao@educacao.niteroi.rj.gov.br",
+      "endereco": "Rua Dr. Celestino, 112 – Centro, Niterói, RJ"
+    },
+    "objeto": {
+      "descricao": "Aquisição de equipamentos de informática para atender às escolas municipais de Niterói.",
+      "duracaoAta": "24 meses"
+    },
+    "participacao": {
+      "exclusivoME_EPP": [1, 3, 5, 7, 9],
+      "condicoes": [
+        "Cumprimento dos requisitos do art. 3º da Lei Complementar 123/2006",
+        "Cadastro no SICAF"
+      ]
+    },
+    "criteriosHabilitacao": {
+      "juridica": [
+        "Registro em Junta Comercial",
+        "Certificado de Condição de Microempreendedor Individual (se aplicável)"
+      ],
+      "regularidadeFiscal": [
+        "CNPJ",
+        "Certidão Negativa de Débitos Trabalhistas (CNDT)"
+      ],
+      "qualificacaoTecnica": [
+        "Comprovação de fornecimento de equipamentos de informática similares"
+      ]
+    },
+    "detalhes": {
+      "licitacaoId": "87/2023",
+      "dataPublicacao": "2023-03-25",
+      "valorEstimado": 9876543.0,
+      "programaOrcamentario": "21.05.10.303.0155.7000",
+      "naturezaDespesa": "33.90.40"
+    }
+  }
