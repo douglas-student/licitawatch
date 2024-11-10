@@ -13,7 +13,7 @@
 
 ## Project Description
 
-**LicitaWatch** automates the process of monitoring public bids on municipal websites. It scrapes bid pages, checks the details, and extracts information from attached documents such as PDFs, DOCXs, CSVs, and more. After processing, it returns a JSON with the extracted data, making access and analysis easier.
+**LicitaWatch** automates the process of monitoring public bids on municipal websites. It scrapes bid pages, checks the details, and extracts information from attached documents such as PDFs and DOCXs. After processing, it returns a JSON with the extracted data, making access and analysis easier.
 
 The project aims to be a low-cost solution using serverless AWS services like Lambda, Step Functions, and S3, allowing for efficient and scalable execution.
 
@@ -35,8 +35,8 @@ The project aims to be a low-cost solution using serverless AWS services like La
 - **AWS Lambda**: Executes individual tasks, such as scraping, downloading, and file processing.
 - **AWS S3**: Temporary storage for downloaded files.
 - **API Gateway**: Connects the front-end with AWS infrastructure.
+- **Node.js** with libraries such as **axios**, **cheerio**, and **pdf-parse**: Used for backend data scraping and analysis.
 - **HTML + JavaScript**: A simple interface to trigger the process via a web page.
-- **Python Libraries**: For file processing, such as `PyPDF2`, `python-docx`, and `pandas`.
 
 ## How to Use
 

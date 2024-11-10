@@ -1,8 +1,8 @@
 # LicitaWatch - Monitor de Licitações [:us:](readme.md)
 
-**LicitaWatch** é uma ferramenta automatizada de scraping e análise de documentos licitatórios, projetada para monitorar, extrair e processar dados de licitações em andamento, concluídas e suspensas. Utilizando o poder das **AWS Step Functions**, ela orquestra todo o processo, desde a coleta de links até a extração de dados de documentos em diferentes formatos.
+**LicitaWatch** é uma ferramenta automatizada para raspagem e análise de documentos de licitação pública, projetada para monitorar, extrair e processar dados de licitações em andamento, concluídas e suspensas. Utilizando **AWS Step Functions**, orquestra todo o processo, desde a coleta de links até a extração de dados de diversos formatos de documentos.
 
-## Índice
+## Tabela de Conteúdos
 
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -13,30 +13,30 @@
 
 ## Descrição do Projeto
 
-**LicitaWatch** automatiza o processo de monitoramento de licitações em sites de prefeituras. Ele realiza scraping de páginas de licitações, verifica os detalhes e extrai informações de documentos anexos, como PDFs, DOCXs, CSVs, e mais. Após o processamento, retorna um JSON com os dados extraídos, facilitando o acesso e a análise.
+**LicitaWatch** automatiza o monitoramento de licitações públicas em sites municipais. Ele realiza a raspagem de páginas de licitações, verifica os detalhes e extrai informações de documentos anexados, como PDFs e DOCXs. Após o processamento, retorna um JSON com os dados extraídos, facilitando o acesso e a análise.
 
-O projeto visa ser uma solução de baixo custo utilizando serviços serverless da AWS, como Lambda, Step Functions, e S3, permitindo uma execução eficiente e escalável.
+O projeto visa ser uma solução de baixo custo, utilizando serviços serverless da AWS, como Lambda, Step Functions e S3, permitindo uma execução eficiente e escalável.
 
 ## Funcionalidades
 
-- **Monitoramento Automático**: Faz scraping de sites de licitações e coleta links de licitações em andamento, concluídas e suspensas.
-- **Processamento de Documentos**: Extrai informações de diferentes formatos de arquivos, como PDF, DOCX, ZIP, CSV, entre outros.
-- **Retorno de Dados**: Retorna um JSON consolidado com todas as informações extraídas, como:
+- **Monitoramento Automático**: Raspa sites de licitações e coleta links de licitações em andamento, concluídas e suspensas.
+- **Processamento de Documentos**: Extrai informações de vários formatos de arquivo, como PDF, DOCX, ZIP, CSV, etc.
+- **Retorno de Dados**: Retorna um JSON consolidado com as informações extraídas, como:
   - Nome da licitação
   - Status (em andamento, suspensa, concluída)
   - Data e local da licitação
   - Empresas participantes e suas propostas
-  - Arquivos anexos e seus conteúdos
-- **Armazenamento Temporário**: Armazena temporariamente os arquivos em **S3** para processamento.
+  - Documentos anexados e seus conteúdos
+- **Armazenamento Temporário**: Armazena arquivos temporariamente no **S3** para processamento.
 
 ## Tecnologias Utilizadas
 
-- **AWS Step Functions**: Orquestração do fluxo de scraping, processamento e retorno dos dados.
-- **AWS Lambda**: Execução de tarefas individuais, como scraping, download e processamento de arquivos.
-- **AWS S3**: Armazenamento temporário de arquivos baixados.
-- **API Gateway**: Conexão entre o front-end e a infraestrutura da AWS.
-- **HTML + JavaScript**: Interface simples para disparar o processo via uma página web.
-- **Bibliotecas de Python**: Para processamento de arquivos, como `PyPDF2`, `python-docx`, e `pandas`.
+- **AWS Step Functions**: Orquestra o fluxo de trabalho de raspagem, processamento e retorno de dados.
+- **AWS Lambda**: Executa tarefas individuais, como raspagem, download e processamento de arquivos.
+- **AWS S3**: Armazenamento temporário para arquivos baixados.
+- **API Gateway**: Conecta o front-end com a infraestrutura da AWS.
+- **Node.js** com bibliotecas como **axios**, **cheerio** e **pdf-parse**: Usado para a raspagem e análise de dados no backend.
+- **HTML + JavaScript**: Interface simples para acionar o processo através de uma página web.
 
 ## Como Usar
 
@@ -44,22 +44,22 @@ O projeto visa ser uma solução de baixo custo utilizando serviços serverless 
 
 - **Conta AWS** com permissões para criar e utilizar serviços como Step Functions, Lambda, S3 e API Gateway.
 - **Node.js** e **npm** instalados localmente para rodar o front-end.
-- **AWS CLI** configurado para implantação de recursos AWS.
+- **AWS CLI** configurado para a implantação dos recursos AWS.
 
 ### Passos
 
-1. **Clone o Repositório**
+1. **Clonar o Repositório**
 
    ```bash
-   git clone https://github.com/seuusuario/LicitaWatch.git
+   git clone https://github.com/yourusername/LicitaWatch.git
    cd LicitaWatch
    ```
 
-2. **Implante os Recursos AWS**
+2. **Implantar Recursos AWS**
 
-   Siga os scripts de deployment fornecidos na pasta `infrastructure` para criar os serviços na AWS (Step Functions, Lambda, S3 e API Gateway).
+   Siga os scripts de implantação na pasta `infrastructure` para criar os serviços AWS (Step Functions, Lambda, S3 e API Gateway).
 
-3. **Configure o Front-end**
+3. **Configurar o Front-end**
 
    Dentro da pasta `frontend`, instale as dependências e inicie o servidor local:
 
@@ -68,9 +68,9 @@ O projeto visa ser uma solução de baixo custo utilizando serviços serverless 
    npm start
    ```
 
-4. **Inicie o Processo de Monitoramento**
+4. **Iniciar o Processo de Monitoramento**
 
-   Acesse a página local do front-end e clique no botão "Iniciar Processo de Licitação". Isso acionará o workflow da Step Functions, que monitorará as licitações e retornará o JSON com os dados.
+   Acesse a página front-end local e clique no botão "Iniciar Processo de Licitação". Isso acionará o fluxo de trabalho Step Functions, que monitorará as licitações e retornará o JSON com os dados.
 
 ## Como Contribuir
 
@@ -81,4 +81,4 @@ O projeto visa ser uma solução de baixo custo utilizando serviços serverless 
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
